@@ -1,0 +1,138 @@
+.head-container .slides, .head-container .responsive-img {
+  height: 100%;
+  width: 100%; }
+
+.dropdown-menu a:hover {
+  background-color: black;
+  color: white; }
+.dropdown-menu .dropdown-item.active,
+.dropdown-menu .dropdown-item:active {
+  background-color: black; }
+
+.slogan {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  opacity: 0.8;
+  position: absolute;
+  top: 25%;
+  right: 5%; }
+
+.slogan.fadeLeftToRight {
+  top: 10%; }
+
+.head-container {
+  max-width: 100%;
+  height: 450px;
+  padding: 0px; }
+  .head-container .slides {
+    display: none; }
+  .head-container .active {
+    display: block; }
+
+#welcome .welcome-img {
+  position: relative;
+  background: url("/assets/images/Botswana/Okavango Delta, Botswana.jpg") no-repeat fixed center center;
+  background-size: cover; }
+
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: rgba(108, 117, 125, 0.6); }
+
+#filter-section {
+  box-shadow: 0 0 3px #6c757d;
+  margin: 3px; }
+
+.col-xl-3 .card-body {
+  height: auto; }
+.col-xl-3 .card {
+  box-shadow: 0 0 5px #6c757d; }
+  .col-xl-3 .card img {
+    height: 180px; }
+
+.btn {
+  box-shadow: 0 3px 0 0 #ffc107; }
+
+.decor-none:link {
+  text-decoration: none;
+  color: black; }
+
+#map {
+  height: 600px; }
+
+#main-section .col-12 .card {
+  box-shadow: 0 0 5px #6c757d; }
+#main-section .col-12 .card img {
+  height: 400px; }
+#main-section .col-12 .card-body {
+  height: auto; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+@-moz-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+@-ms-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+@-o-keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+@keyframes fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.8; } }
+@-webkit-keyframes leftToRight {
+  from {
+    right: 15%; }
+  to {
+    right: 5%; } }
+@-moz-keyframes leftToRight {
+  from {
+    right: 15%; }
+  to {
+    right: 5%; } }
+@-ms-keyframes leftToRight {
+  from {
+    right: 15%; }
+  to {
+    right: 5%; } }
+@-o-keyframes leftToRight {
+  from {
+    right: 15%; }
+  to {
+    right: 5%; } }
+@keyframes leftToRight {
+  from {
+    right: 15%; }
+  to {
+    right: 5%; } }
+.fadeLeftToRight {
+  animation: fade 4s, leftToRight 4s; }
+
+.leftToRight {
+  opacity: 0;
+  animation: fade 4s 1s, leftToRight 4s 1s; }
+
+@media (max-width: 767px) {
+  #ok-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px; } }
+@media (min-width: 768px) {
+  #ok-btn {
+    margin-top: 31px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,197 @@
+// extends/inheritance ---------------------
+%full-span {
+    height: 100%;
+    width: 100%;
+}
+
+// Header --------------------
+.dropdown-menu {
+    a:hover {
+        background-color: black;
+        color: white;
+    }
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: black;
+    }
+}
+
+
+// Showcase -----------------
+.slogan {
+    color: white;
+    font: {
+        size: 50px;
+    }
+    text-align: center;
+    opacity: 0.8;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+
+}
+
+.slogan.fadeLeftToRight {
+    top: 10%;
+}
+
+.head-container {
+    max-width: 100%;
+    height: 450px;
+    padding: 0px;
+
+    .slides {
+        @extend %full-span;
+        display: none;
+    }
+
+    .responsive-img {
+        @extend %full-span;
+    }
+
+    .active {
+        display: block;
+    }
+
+}
+
+// Welcome section ----------
+#welcome {
+    .welcome-img {
+        position: relative;
+        background: url("/assets/images/Botswana/Okavango Delta, Botswana.jpg") no-repeat fixed center center;
+        background-size: cover;
+
+    }
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(108, 117, 125, 0.6);
+}
+
+
+// Filter Section --------
+#filter-section {
+    box-shadow: 0 0 3px #6c757d;
+    margin: 3px;
+}
+
+// Card sections -----------
+.col-xl-3 {
+    .card-body {
+        height: auto;
+    }
+    .card {
+        box-shadow: 0 0 5px #6c757d;
+    
+        img {
+            height: 180px;
+        }
+    }
+    
+}
+
+.btn {
+    box-shadow: 0 3px 0 0 #ffc107;
+}
+
+.decor-none:link {
+    text-decoration: none;
+    color: black;
+}
+
+//Map ------------------------------------
+
+#map {
+    height: 600px;
+}
+
+//Main section --------------------------
+
+#main-section .col-12{
+    .card {
+        box-shadow: 0 0 5px #6c757d;
+    }
+    .card img {
+        height: 400px;
+    }
+    .card-body {
+        height: auto;
+    }
+}
+
+
+// mixins------------------------------
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @-o-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+@mixin animation ($property) {
+    -webkit-animation: $property;
+    -moz-animation: $property;
+    -ms-animation: $property;
+    -o-animation: $property;
+    animation: $property;
+}
+
+//keyframes ---------------------------
+@include keyframes (fade) {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 0.8
+    }
+}
+
+@include keyframes (leftToRight) {
+    from {
+        right: 15%
+    }
+    to {
+        right: 5%
+    }
+}
+
+//animations --------------------------
+.fadeLeftToRight {
+    animation: fade 4s, leftToRight 4s;
+}
+
+.leftToRight {
+    opacity: 0;
+    animation: fade 4s 1s, leftToRight 4s 1s;
+}
+
+// Media ------------------
+@media (max-width: 767px) {
+    #ok-btn {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #ok-btn {
+        margin-top: 31px;
+    }
+}
