@@ -15,7 +15,7 @@
 
  var destinations = [
   { name: "Paradise Beach", location: { lat: -6.1352841, lng: 39.4248296 } },
-  { name: "", location: { lat: -6.1352841, lng: 39.4248296 } }
+  { name: "Cabo ledo Beach", location: { lat: -9.648539, lng: 13.235047 } }
 
  ];
 
@@ -24,12 +24,12 @@
  }
 
  var map_types = [
-  { keyword: "hotels" },
-  { keyword: "restaurants" },
-  { keyword: "safaries" },
-  { keyword: "beaches" },
-  { keyword: "reserve" },
-  { keyword: "cities" },
+  { keyword: "hotel" },
+  { keyword: "restaurant" },
+  { keyword: "safari" },
+  { keyword: "beach" },
+  { keyword: "city" },
+  { keyword: "park" },
  ];
 
 
@@ -41,7 +41,7 @@
   var clickedBtn = $(this).val();
 
   if (clickedBtn) {
-   initMap(destinations[0], map_types[clickedBtn]);
+   initMap(destinations[destId], map_types[clickedBtn]);
   }
 
  });
@@ -56,8 +56,9 @@
   }
 
   if (!destination) {
-   destination = destinations[0];
+   destination = destinations[destId];
   }
+  
   console.log("called initMap with:", destination, map_type);
 
   map = new google.maps.Map(document.getElementById('map'), {
