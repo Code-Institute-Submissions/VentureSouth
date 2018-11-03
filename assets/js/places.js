@@ -3,7 +3,7 @@
 
  var destinations = [
   { name: "Paradise Beach", location: { lat: -6.1352841, lng: 39.4248296 } },
-  { name: "Cabo Ledo Beach", location: { lat: -9.648539, lng: 13.235047 } },
+  { name: "Cabo Ledo Beach", location: { lat: -9.653097, lng: 13.233236 } },
   { name: "Inhaca Island", location: { lat: -26.0211293, lng: 32.9352297 } },
   { name: "Camps Bay", location: { lat: -33.950003, lng: 18.377430 } },
   { name: "Gabarone City", location: { lat: -24.629084, lng: 25.923502 } },
@@ -33,20 +33,20 @@
   { name: "Mokolodi", location: { lat: -24.737439, lng: 25.816928 } },
   { name: "Moremi", location: { lat: -19.464243, lng: 23.064858 } },
   { name: "Nxai Pan NP", location: { lat: -20.095582, lng: 24.809269 } },
-  { name: "Mussulo", location: { lat: -8.9987481, lng: 12.9975819 } },
+  { name: "Mussulo", location: { lat: -8.960871, lng: 13.058110  } },
   
-  { name: "Porto Amboim", location: { lat: -10.724681, lng: 13.758909 } },
-  { name: "Praia Morena", location: { lat: -12.573043, lng: 13.398886 } },
+  { name: "Porto Amboim", location: { lat: -10.722173, lng: 13.759645 } },
+  { name: "Praia Morena", location: { lat: -12.573428, lng: 13.398700 } },
   { name: "Pangane Beach", location: { lat: -12.000621, lng: 40.537713 } },
   { name: "Ponta Do Ouro", location: { lat: -26.843179, lng: 32.889269 } },
   { name: "Vilankulos", location: { lat: -21.995971, lng: 35.323491 } },
   { name: "Ponta Mamoli", location: { lat: -26.707988, lng: 32.901419 } },
+  { name: "Bazaruto Archipelago", location: { lat: -21.665857, lng: 35.469857 } },
+  { name: "Island of Mozambique", location: { lat: -15.042715, lng: 40.730431 } },
+  { name: "Maputo", location: { lat: -25.956070, lng: 32.578457 } },
+  { name: "Pemba", location: { lat: -12.963727, lng: 40.501587 } },
   
-  { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
-  { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
-  { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
-  { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
-  { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
+  { name: "Tofo", location: { lat: -23.855771, lng: 35.547976 } },
   { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
  ];
 
