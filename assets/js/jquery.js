@@ -19,10 +19,12 @@ $('.more').click(function() {
 });
 
 // Icon controller once the more/less button is clicked.
-$('.decor-none').click(function (){
+$('.title').click(function (){
    var $this = $(this);
    
-   var $span = $this.children('.fas');
+   var $child = $this.children('.decor-none');
+   
+   var $span = $child.children('.fas');
    
    var $parent = $this.parents('.card-header');
    
