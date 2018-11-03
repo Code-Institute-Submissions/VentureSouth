@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="Exploreport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+
+    <title>Venture South</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand ml-2" href="/index.html">Venture South</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html" target="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/beaches.html" target="">Beaches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cities.html" target="">Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/national-parks.html" target="">National Parks</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main-section">
+            
+            <div class="container-fluid">
+                
+                <div class="row">
+                    <div class="col-12 m-3 mt-4">
+                        <h1>Gabarone City</h1>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 my-5">
+                        <div class="card">
+                            <img src="/assets/images/Botswana/Cities/Gabarone city at night.jpg" alt="Gabarone city, Botswana" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-title text-info">Gabarone city, Botswana</p>
+                                <p class="card-text mt-4 text-center">
+                                Gaborone is not different from any other city. It’s soiled with Western needs, such as pubs and luxury hotels. 
+                                But as soon as you leave the city and its main roads, it is as if you walk straight into another world. 
+                                Offering the best of both possible worlds, 
+                                the silence takes your breath away for a fraction of time while you enter into rural Africa or wildlife areas within minutes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6">
+                        <div class="button-container mb-2 text-center">
+                            <button value="0" class="btn btn-primary">Hotels</button>
+                            <button value="1" class="btn btn-primary">Resturants</button>
+                            <button value="2" class="btn btn-primary">Safaries</button>
+                            <button value="3" class="btn btn-primary d-none">Beaches</button>
+                            <button value="4" class="btn btn-primary d-none">Cities</button>
+                            <button value="5" class="btn btn-primary">Parks</button>
+                        </div>
+                        <div id="map" class="p-5 mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="main-footer" class="text-center py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <p>Copywrite &copy; <span id="year"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Scripts-->
+    
+    <!--Google API's -->
+    <script>
+        var destId = 4;
+        var mapId;
+        $('#year').text(new Date().getFullYear());
+    </script>
+    <script type="text/javascript" src="/assets/js/places.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2HwxskmlFHR0L2I99sLtJhF4zD29N6vU&libraries=places&callback=initMap"></script>
+
+</body>
+
+</html>
