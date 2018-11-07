@@ -28,7 +28,7 @@
   { name: "Cameia NP", location: { lat: -11.883333, lng: 21.667074 } },
   { name: "Iona NP", location: { lat: -16.142409, lng: 12.293580 } },
   { name: "Kissama NP", location: { lat: -9.750095, lng: 13.583320 } },
-  { name: "Mupa NP", location: { lat: -21.991082, lng: 27.839564 } },
+  { name: "Mupa NP", location: { lat:-15.916785, lng: 15.583848 } },
   { name: "Kalahari", location: { lat: -22.433363, lng: 23.889802 } },
   { name: "Mokolodi", location: { lat: -24.737439, lng: 25.816928 } },
   { name: "Moremi", location: { lat: -19.464243, lng: 23.064858 } },
@@ -48,6 +48,11 @@
   
   { name: "Tofo", location: { lat: -23.855771, lng: 35.547976 } },
   { name: "Selebi Phikwe", location: { lat: -21.991082, lng: 27.839564 } },
+  { name: "Gorongosa NP", location: { lat: -18.800764, lng: 34.494217 } },
+  { name: "Limpopo NP", location: { lat: -23.594475, lng: 32.020810  } },
+  { name: "Lugela", location: { lat: -16.425044, lng: 36.746202 } },
+  { name: "Niassa", location: { lat: -12.037933, lng: 37.161541 } },
+  { name: "Quirimbas NP", location: { lat: -12.292913, lng: 40.465045 } },
  ];
 
  // Test to see if destId is read when each page loads. 
