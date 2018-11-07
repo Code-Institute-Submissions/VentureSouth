@@ -10,8 +10,6 @@
 
 ## Development
 
-
-
 ## Credits
 
 ### Content

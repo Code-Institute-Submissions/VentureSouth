@@ -4,19 +4,6 @@
     width: 100%;
 }
 
-// Header --------------------
-.dropdown-menu {
-    a:hover {
-        background-color: black;
-        color: white;
-    }
-    .dropdown-item.active,
-    .dropdown-item:active {
-        background-color: black;
-    }
-}
-
-
 // Showcase -----------------
 .slogan {
     color: white;
@@ -72,26 +59,20 @@
     background-color: rgba(108, 117, 125, 0.6);
 }
 
-
-// Filter Section --------
-#filter-section {
-    box-shadow: 0 0 3px #6c757d;
-    margin: 3px;
-}
-
 // Card sections -----------
 .col-xl-3 {
-    .card-body {
-        height: auto;
-    }
     .card {
         box-shadow: 0 0 5px #6c757d;
-    
+        
+        .card-body {
+            height: auto;
+        }
+
         img {
             height: 180px;
         }
     }
-    
+
 }
 
 .btn {
@@ -104,14 +85,12 @@
 }
 
 //Map ------------------------------------
-
 #map {
     height: 600px;
 }
 
 //Main section --------------------------
-
-#main-section .col-12{
+#main-section .col-12 {
     .card {
         box-shadow: 0 0 5px #6c757d;
     }
