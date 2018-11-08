@@ -1,10 +1,39 @@
 # Venture South
 
+Venture South is a tourist website for anyone willing to tour the southern part of Africa. 
+The website shows the user rows of cards that are each linked to a secific page.
+Each card either shows one of the cities, beaches or national parks, and the corresponding page uses the 
+Google Maps Places API to diplay the coordinates of the place and displays surrounding key areas for the user to see.
+
 ## UX
 
+This website is designed for trourist or as a navigation tool for users at one of the destinations provided on the website 
+to see what other nearby attractions, hotels, beaches etc that they can explore within those areas.
+
+* User in Angola for example would like to know what beaches they can go to and the surrounding hotels for a place to stay in, or a resturant to eat within that area. They can acheve this by visiting the beaches or cities page and viewing what hotels, resturants etc Angola can provide once set on a destination.
+
+Wireframes 
+[Wireframes](/Wireframes/IMG_2709.JPG)
+[Wireframes](/Wireframes/IMG_2710.JPG)
+[Wireframes](/Wireframes/IMG_2711.JPG)
+[Wireframes](/Wireframes/IMG_20181108_181311.jpg)
+[Wireframes](/Wireframes/IMG_20181108_181610.jpg)
+[Wireframes](/Wireframes/IMG_20181108_183408.jpg)
 ## Features
 
-## Technology Used
+### Exisiting Features
+
+*
+
+### Features Left to Implement
+
+* More links to different destinations 
+* When hotels are loaded a value of how much that hotel would cost per night on that day and time.
+* Ability for the user to book/reserve for safaries, hotels and resturants. 
+* Ability for the user to leave a review on the visit. 
+
+
+## Technologies Used
 
 ## Testing
 
@@ -22,12 +51,12 @@
 * Mupa NP [Mupa](https://www.wikilistia.com/mupa-national-park/)
 * Kissama NP [Kissama NP](https://angolatravelandtours.com/day-tour-from-luanda-to-kissama-national-park/)
 * Iona NP [Iona NP](https://www.flickr.com/photos/a-weidinger/5985735176)
-* Cameia NP[Cameia NP](https://www.africatouroperators.org/angola/cameia-national-park)
-* Bicuar NP[Bicuar NP](https://sites.google.com/site/touringangola/bicauri-na)
-* Limpopo NP[Limpopo NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/14/)
+* Cameia NP [Cameia NP](https://www.africatouroperators.org/angola/cameia-national-park)
+* Bicuar NP [Bicuar NP](https://sites.google.com/site/touringangola/bicauri-na)
+* Limpopo NP [Limpopo NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/14/)
 * Niassa Reserve [Niassa Reserve](https://www.thecrazytourist.com/15-best-places-visit-mozambique/12/)
-* Quirimbas NP[Quirimbas NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/6/)
-* Gorongosa NP[Gorongosa NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/4/)
+* Quirimbas NP [Quirimbas NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/6/)
+* Gorongosa NP [Gorongosa NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/4/)
 * Serengeti NP [Serengeti NP](https://africawildlifes.com/best-of-serengeti-national-park-in-tanzania/)
 * Chobe NP [Chobe NP](http://chobenationalpark.co.za/)
 * Zambezi NP [Zambezi NP](https://www.lowerzambezi.com/)
@@ -69,6 +98,14 @@
 * Paradise Beach [Paradise Beach](https://en.wikipedia.org/wiki/Tourism_in_Zanzibar)
 
 ### Media
+
+#### Image Reel
+* Pavilion [Pavilion](https://www.istockphoto.com/gb/photo/pavilion-riverside-gm476608386-66078587)
+* Savanna Sunrise [Savanna](https://www.istockphoto.com/gb/photo/savanna-sunrise-and-acacia-tree-in-tanzania-africa-gm621359868-108486303)
+* Victoria Falls [Victoria Falls](https://www.istockphoto.com/gb/photo/the-victoria-falls-gm143922110-18629800)
+* Okavango Delta [Okavango](https://www.istockphoto.com/gb/photo/bright-landscape-view-of-okavango-delta-botswana-gm155153243-18538168)
+
+#### Google Icon
 * Google Maps Icon [google images](https://www.google.co.uk/search?tbm=isch&sa=1&ei=1bPRW7atFZSfgQb98pHgBw&q=google+maps+icon+blue&oq=google+maps+icon+blue&gs_l=img.3..0i8i30k1l2.32138.35961.0.37021.13.13.0.0.0.0.50.565.13.13.0....0...1c.1.64.img..0.13.563...0j0i24k1j0i30k1j0i5i30k1j0i67k1.0.r1hLPBf5RDk#imgrc=zi2ftPAXEXix9M:)
 
 #### National Parks
@@ -78,13 +115,13 @@
 * Kalahari [Kalahari](https://www.centralkalaharigamereserve.com/media/cache/4c/ac/4cac4a3e25610de2f04fecebe522d71b.jpg)
 * Mupa NP [Mupa](https://www.wikilistia.com/mupa-national-park/)
 * Kissama NP [Kissama](https://angolatravelandtours.com/day-tour-from-luanda-to-kissama-national-park/)
-* Iona NP[Iona NP](https://www.flickr.com/photos/a-weidinger/5985735176)
-* Cameia NP[Cameia NP](http://www.traveltourismblog.com/images/Angola%20Calendula%20falls.jpg)
-* Bicuar NP[Bicuar NP](https://sites.google.com/site/touringangola/bicauri-na)
-* Limpopo NP[Limpopo NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/14/)
+* Iona NP [Iona NP](https://www.flickr.com/photos/a-weidinger/5985735176)
+* Cameia NP [Cameia NP](http://www.traveltourismblog.com/images/Angola%20Calendula%20falls.jpg)
+* Bicuar NP [Bicuar NP](https://sites.google.com/site/touringangola/bicauri-na)
+* Limpopo NP [Limpopo NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/14/)
 * Niassa Reserve [Niassa Reserve](https://www.thecrazytourist.com/15-best-places-visit-mozambique/12/)
-* Quirimbas NP[Quirimbas NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/6/)
-* Gorongosa NP[Gorongosa NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/4/)
+* Quirimbas NP [Quirimbas NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/6/)
+* Gorongosa NP [Gorongosa NP](https://www.thecrazytourist.com/15-best-places-visit-mozambique/4/)
 * Serengeti NP [Serengeti](https://africawildlifes.com/best-of-serengeti-national-park-in-tanzania/)
 * Chobe NP [Chobe](https://www.picswe.com/pics/chobe-national-91.html)
 * Zambezi [Zambezi](https://www.istockphoto.com/gb/photo/elephant-with-baby-crossing-the-river-zambezi-gm682243346-125106657)
