@@ -1,32 +1,32 @@
 # Venture South
-
 Venture South is a tourist website for anyone willing to tour the southern part of Africa. 
 The website shows the user rows of cards that are each linked to a secific page.
 Each card either shows one of the cities, beaches or national parks, and the corresponding page uses the 
 Google Maps Places API to diplay the coordinates of the place and displays surrounding key areas for the user to see.
 
 ## UX
+This website is designed for tourists or as a navigation tool for users at one of the destinations provided on the website 
+to see what other nearby attractions, hotels, beaches etc that they can explore within those areas. The website allows users to do this
+by using either the navigation bar at the top to get directed straight to their desired type of destination or by allowing the user to explore
+the different types of destinations by scrolling down the home page and having a look at 4 of each type. 
 
-This website is designed for trourist or as a navigation tool for users at one of the destinations provided on the website 
-to see what other nearby attractions, hotels, beaches etc that they can explore within those areas.
-
+* A new user will want know what the website is about, the image reel with slogans give the user an insight of what the web page is about including the welcome section with a breif overview.
 * User in Angola for example would like to know what beaches they can go to and the surrounding hotels for a place to stay in, or a resturant to eat within that area. They can acheve this by visiting the beaches or cities page and viewing what hotels, resturants etc Angola can provide once set on a destination.
+* The user may want to view different destinations at once without losing the information on the previous page hence why each destionation has a target to a new tab. 
+* Tourist looking for national parks and safaries in any given country can view the national parks page and use the more/less buttons and the accordion to look through the different types in each country.
+* A tourist trekking in national parks would like to know where the camps are located in the national park and they can do this on the destination page.
 
-Wireframes 
-[Wireframes](/Wireframes/IMG_2709.JPG)
-[Wireframes](/Wireframes/IMG_2710.JPG)
-[Wireframes](/Wireframes/IMG_2711.JPG)
-[Wireframes](/Wireframes/IMG_20181108_181311.jpg)
-[Wireframes](/Wireframes/IMG_20181108_181610.jpg)
-[Wireframes](/Wireframes/IMG_20181108_183408.jpg)
 ## Features
 
 ### Exisiting Features
-
-*
+* View the different beaches, by clicking on the beaches link and filtering by counrty.
+* View the different cities, by clicking on the cities link and filtering by counrty.
+* View the different national parks, by clicking on the national parks link and filtering by counrty.
+* View nearby destinations or key areas by clicking on the buttons above the map some are preloaded for the user.
+* Its easier for the user to distinguish the destination from the search results with the blue google maps icon.
 
 ### Features Left to Implement
-
+* GPS location between users and destionation or key areas surrounding the destination. 
 * More links to different destinations 
 * When hotels are loaded a value of how much that hotel would cost per night on that day and time.
 * Ability for the user to book/reserve for safaries, hotels and resturants. 
@@ -34,8 +34,22 @@ Wireframes
 
 
 ## Technologies Used
+* [Jquery](https://jquery.com/)
+    * Used to manpulate the DOM for the purpose of making the buttons and icons more interactive when clicked.
+* [Google Maps API](https://cloud.google.com/maps-platform/places/)
+    * Used to load and generate the map for each destination and search via keyword for nearby areas.
+* Vanilla JS
+    * To create the custom slider for the home page.
+* [Bootstrap 4.1.3](https://getbootstrap.com/)
+    * Used to create the layout and edited the SCSS variables for custom color theames. 
 
 ## Testing
+
+
+### Unexpected bugs
+* When using the API to search via keywords it sometimes returns some unexpected results, not only that but when using keywords 
+  that should have an expected result like cities sometimes it dosent return any cities at all.
+* 
 
 ## Development
 
