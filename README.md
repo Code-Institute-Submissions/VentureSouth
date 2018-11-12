@@ -38,7 +38,7 @@ the different types of destinations by scrolling down the home page and having a
     * Used to manpulate the DOM for the purpose of making the buttons and icons more interactive when clicked.
 * [Google Maps API](https://cloud.google.com/maps-platform/places/)
     * Used to load and generate the map for each destination and search via keyword for nearby areas.
-* Vanilla JS
+* Javascript
     * To create the custom slider for the home page.
 * [Bootstrap 4.1.3](https://getbootstrap.com/)
     * Used to create the layout and edited the SCSS variables for custom color themes. 
@@ -53,23 +53,7 @@ the different types of destinations by scrolling down the home page and having a
         * Loaded page on Chrome and reel still works
         * Checked on desktop, laptop and mobile width screens and it works as expected.
     
-    * Chrome
-        1. All nav links clicked and they work as expected
-        2. Clicked beaches header and it takes me to the beaches page
-        3. Clicked cities header and it takes me to the cities page
-        4. Clicked national parks header and it takes me to the national parks page
-        5. Clicked each card link and it opens a new tab as expected.
-        6. Buttons lead to the corresponding section pages.
-    
-    * Safari
-        1. All nav links clicked and they work as expected
-        2. Clicked beaches header and it takes me to the beaches page
-        3. Clicked cities header and it takes me to the cities page
-        4. Clicked national parks header and it takes me to the national parks page
-        5. Clicked each card link and it opens a new tab as expected.
-        6. Buttons lead to the corresponding section pages.
-    
-    * Firefox
+    * Chrome, Safari, Firefox
         1. All nav links clicked and they work as expected
         2. Clicked beaches header and it takes me to the beaches page
         3. Clicked cities header and it takes me to the cities page
@@ -78,24 +62,8 @@ the different types of destinations by scrolling down the home page and having a
         6. Buttons lead to the corresponding section pages.
 
 * Beaches Page
-    * Chrome 
-        1. Clicked the beaches link on chrome and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Clicked more/less buttons on the page each works as expected with accordion effect.
-        5. Clicked the country heading and accordion effect is present with icon changing direction.
-        6. Each navigation link takes you to the corresponding page.
-    
-    * Safari
-        1. Clicked the beaches link on Safari and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Clicked more/less buttons on the page each works as expected with accordion effect.
-        5. Clicked the country heading and accordion effect is present with icon changing direction.
-        6. Each navigation link takes you to the corresponding page.
-
-    * Firefox 
-        1. Clicked the beaches link on Firefox and it loads.
+    * Chrome, Safari, Firefox 
+        1. Clicked the beaches link on all browers and it loads.
         2. Clicked each card link and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Clicked more/less buttons on the page each works as expected with accordion effect.
@@ -103,24 +71,8 @@ the different types of destinations by scrolling down the home page and having a
         6. Each navigation link takes you to the corresponding page.
 
 * Cities Page
-    * Chrome 
-        1. Clicked the cities link on chrome and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Clicked more/less buttons on the page each works as expected with accordion effect.
-        5. Clicked the country heading and accordion effect is present with icon changing direction.
-        6. Each navigation link takes you to the corresponding page.
-    
-    * Safari
-        1. Clicked the cities link on Safari and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Clicked more/less buttons on the page each works as expected with accordion effect.
-        5. Clicked the country heading and accordion effect is present with icon changing direction.
-        6. Each navigation link takes you to the corresponding page.
-
-    * Firefox 
-        1. Clicked the cities link on Firefox and it loads.
+    * Chrome, Safari, Firefox 
+        1. Clicked the cities link on all browers and it loads.
         2. Clicked each card link and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Clicked more/less buttons on the page each works as expected with accordion effect.
@@ -128,26 +80,8 @@ the different types of destinations by scrolling down the home page and having a
         6. Each navigation link takes you to the corresponding page.
 
 * National Parks Page
-    * Chrome 
-        1. Clicked the national parks link on Chrome and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Checked to see if each destination page without buttons loads with camps on the map.
-        5. Clicked more/less buttons on the page each works as expected with accordion effect.
-        6. Clicked the country heading and accordion effect is present with icon changing direction.
-        7. Each navigation link takes you to the corresponding page.
-    
-    * Safari
-        1. Clicked the national parks link on Safari and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
-        3. Clicked each button on the destination page and they all work.
-        4. Checked to see if each destination page without buttons loads with camps on the map.
-        5. Clicked more/less buttons on the page each works as expected with accordion effect.
-        6. Clicked the country heading and accordion effect is present with icon changing direction.
-        7. Each navigation link takes you to the corresponding page.
-
-    * Firefox 
-        1. Clicked the national parks link on Firefox and it loads.
+    * Chrome, Safari, Firefox 
+        1. Clicked the national parks link on all browers and it loads.
         2. Clicked each card link and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Checked to see if each destination page without buttons loads with camps on the map.
@@ -166,7 +100,18 @@ Venture South works the same on each browser this could be due to the fact that 
   that should have an expected result like cities sometimes it dosent return any cities at all.
 
 ## Deployment
+To deploy the web site from Cloud 9 workspace to Github pages I used the following commands in sequence.
+    
+    * git init - which creates a new Git repository.
+    * git status - to see which files have been updated on Cloud 9.
+    * git add - to add the updated files to the staging area.
+    * git commit -m "actions taken" - to commit the files to the local repository.
+    * git remote add origin https://github.com/Harrysibbenga/VentureSouth.git - specifies which remote repository commants will be used in.
+    * git push -u origin master - to push the commits made on local branch to the Github remote repository.
+    
+Once that was done it was simple to publish the website on the settings in the repository, by selecting the master branch as the source for Github Pages.
 
+Published at : https://harrysibbenga.github.io/VentureSouth/
 
 ## Credits
 
