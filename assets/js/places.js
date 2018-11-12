@@ -113,7 +113,7 @@
    position: destination.location,
    map: map,
    title: destination.name,
-   icon: { url: ".assets/images/google-maps-pin-blue-hi.png" }
+   icon: { url: "../images/google-maps-pin-blue-hi.png" }
   });
 
 
