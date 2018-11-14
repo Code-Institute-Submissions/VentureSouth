@@ -64,7 +64,7 @@ the different types of destinations by scrolling down the home page and having a
 * Beaches Page
     * Chrome, Safari, Firefox 
         1. Clicked the beaches link on all browers and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
+        2. Clicked each card link button and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Clicked more/less buttons on the page each works as expected with accordion effect.
         5. Clicked the country heading and accordion effect is present with icon changing direction.
@@ -73,7 +73,7 @@ the different types of destinations by scrolling down the home page and having a
 * Cities Page
     * Chrome, Safari, Firefox 
         1. Clicked the cities link on all browers and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
+        2. Clicked each card link button and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Clicked more/less buttons on the page each works as expected with accordion effect.
         5. Clicked the country heading and accordion effect is present with icon changing direction.
@@ -82,7 +82,7 @@ the different types of destinations by scrolling down the home page and having a
 * National Parks Page
     * Chrome, Safari, Firefox 
         1. Clicked the national parks link on all browers and it loads.
-        2. Clicked each card link and it opens a new tab as expected.
+        2. Clicked each card link button and it opens a new tab as expected.
         3. Clicked each button on the destination page and they all work.
         4. Checked to see if each destination page without buttons loads with camps on the map.
         5. Clicked more/less buttons on the page each works as expected with accordion effect.
