@@ -43,27 +43,19 @@
 }
 
 // Welcome section ----------
-#welcome {
-    .welcome-img {
-        position: relative;
-        background-image: url("../assets/images/Botswana/Okavango Delta, Botswana.jpg");
-        background: no-repeat fixed center center;
-        background-size: cover;
-    }
-}
 
 .overlay {
     position: relative;
     top: 0;
     left: 0;
-    background-color: rgba(108, 117, 125, 0.6);
+    background-color: rgba(108, 117, 125, 0.4);
 }
 
 // Card sections -----------
 .col-xl-3 {
     .card {
         box-shadow: 0 0 5px #6c757d;
-        
+
         .card-body {
             height: auto;
         }
