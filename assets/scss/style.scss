@@ -46,9 +46,9 @@
 #welcome {
     .welcome-img {
         position: relative;
-        background: url("../assets/images/Botswana/Okavango Delta, Botswana.jpg") no-repeat fixed center center;
+        background-image: url("../images/Botswana/Okavango Delta, Botswana.jpg");
+        background: no-repeat fixed center center;
         background-size: cover;
-
     }
 }
 
